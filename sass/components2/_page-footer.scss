@@ -1,0 +1,224 @@
+.page-footer {
+  padding: 60px 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  background-color: $footer-color;
+
+  @media screen and (max-width: $tablet) {
+    text-align: center;
+  }
+
+}
+.page-footer__logo {
+  display: block;
+  margin-bottom: 20px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $title-color;
+
+  .page-footer__logo-text {
+    color: $accent-color;
+  }
+
+  @media screen and (min-width: $desctop) {
+    font-size: 26px;
+  }
+}
+
+.addres {
+  font-style: normal;
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 60px;
+  }
+}
+
+.page-footer__address-item {
+  margin-bottom: 9px;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.page-footer__address-link-main {
+  display: block;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $title-color;
+  text-decoration: none;
+
+  transition: color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.page-footer__address-link {
+  display: block;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  text-decoration: none;
+
+  transition: color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.page-footer__social {
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: $desctop) {
+    margin-left: 70px;
+  }
+
+}
+
+.page-footer__social-title {
+  display: block;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+  color: $title-color;
+}
+
+.page-footer__social-list {
+  display: flex;
+  gap: 10px;
+  @media screen and (max-width: $tablet) {
+    justify-content: center;
+  }
+}
+.page-footer_social-link {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $title-color;
+  border-radius: 24px;
+
+  transition: background-color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    fill: $title-color;
+    background-color: $accent-color;
+  }
+}
+
+.page-footer__social-item {
+  width: 44px;
+  height: 44px;
+}
+
+.tablet-flex {
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    display: flex;
+    gap: 165px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1199px) {
+    display: flex;
+    align-items: baseline;
+    
+  }
+}
+
+.page-footer__form {
+       @media screen and (min-width: $desctop) {
+    display: flex;
+    gap: 10px;
+   }
+}
+
+.page-footer__form-email {
+  margin-bottom: 20px;
+  outline: none;
+  height: 50px;
+  padding-left: 10px;
+
+  background-color: $footer-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: $primary-text-color;
+
+    @media screen and (min-width: $mobile) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: $desctop) {
+    width: 358px;
+  }
+}
+
+.page-footer__form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+
+  padding: 10px 28px;
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  color: $title-color;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  transition: background-color $cubic-bezier;
+
+  &:hover,
+  &:focus {
+    background-color: $secondary-accent-color;
+  }
+
+  @media screen and (max-width: 1199px) {
+    margin: auto;
+  }
+}
+
+.page-footer__form-box {
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.page-footer__flex {
+  @media screen and (min-width: $desctop) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
