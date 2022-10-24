@@ -1,16 +1,34 @@
 .section__clients {
-  padding: 94px 0;
+  padding: 60px 0;
+
+  @media screen and (min-width: $desctop) {
+    padding: 94px 0;
+  }
 }
+
 .list-clients {
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  
 }
 
 .li-clients {
-  width: 170px;
-  height: 92px;
+  @media screen and (min-width: $mobile) and (max-width: 767px) {
+    width: 210px;
+    height: 92px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    width: 226px;
+    height: 92px;
+  }
+  @media screen and (min-width: $desctop) {
+    width: 170px;
+    height: 92px;
+  }
 }
 
 .link-icon-clients {
