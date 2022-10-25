@@ -460,47 +460,50 @@ p {
 .section__main-studio {
   max-width: 767px;
   min-height: 400px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bcmobile.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bcmobile.jpg);
+  padding: 118px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bcmobile.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcmobile.jpg);
   background-size: cover;
 }
 
-@media (min-device-pixel-ratio: 2), (webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .section__main-studio {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bcmobile2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bcmobile2x.jpg);
-  }
-}
 @media screen and (min-width: 768px) {
   .section__main-studio {
     max-width: 1199px;
+    min-height: 400px;
+    padding: 118px 0;
     background-size: cover;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bctablet.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bctablet.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bctablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bctablet.jpg);
   }
 }
 
-@media (min-device-pixel-ratio: 2), (webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .section__main-studio {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bctablet2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bctablet2x.jpg);
-  }
-}
 @media screen and (min-width: 1200px) {
   .section__main-studio {
     max-width: 1600px;
     min-height: 600px;
     padding: 200px 0;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bcdesctop.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bcdesctop.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bcdesctop.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcdesctop.jpg);
     background-size: cover;
   }
 }
 
-@media (min-device-pixel-ratio: 2), (webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section__main-studio {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/bcdesctop2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/bcdesctop2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bcdesctop@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcdesctop@2x.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section__main-studio {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bctablet@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bctablet@2x.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section__main-studio {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bcmobile@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcmobile@2x.jpg);
   }
 }
 .main-studio__title {
@@ -675,7 +678,6 @@ p {
   margin-right: auto;
   padding: 60px 0;
   background-color: #f5f4fa;
-  max-width: 1600px;
 }
 @media screen and (min-width: 1200px) {
   .section__team {
@@ -892,10 +894,9 @@ p {
   padding: 60px 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   background-color: #2f303a;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .page-footer {
     text-align: center;
   }
@@ -991,7 +992,7 @@ p {
   display: flex;
   gap: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .page-footer__social-list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1069,9 +1070,14 @@ p {
   border-radius: 4px;
   color: #757575;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 479px) {
   .page-footer__form-email {
     width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .page-footer__form-email {
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {

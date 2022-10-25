@@ -4,7 +4,7 @@
   margin-right: auto;
   background-color: $footer-color;
 
-  @media screen and (max-width: $tablet) {
+  @media screen and (max-width: 1199px) {
     text-align: center;
   }
 
@@ -101,7 +101,7 @@
 .page-footer__social-list {
   display: flex;
   gap: 10px;
-  @media screen and (max-width: $tablet) {
+  @media screen and (max-width: 1199px) {
     justify-content: center;
   }
 }
@@ -158,14 +158,20 @@
   outline: none;
   height: 50px;
   padding-left: 10px;
+  
 
   background-color: $footer-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   color: $primary-text-color;
 
-    @media screen and (min-width: $mobile) {
+  @media screen and (max-width: 479px) {
     width: 100%;
+  }
+
+
+    @media screen and (min-width: $mobile) and (max-width: 1199px) {
+    width: 450px;
   }
 
   @media screen and (min-width: $desctop) {

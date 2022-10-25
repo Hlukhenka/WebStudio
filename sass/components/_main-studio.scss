@@ -24,7 +24,6 @@
 }
 
 
-
 .section__main-studio {
   @media screen and (min-width: $tablet) {
     max-width: 1199px;
@@ -57,7 +56,7 @@
 }
 
 @media (min-device-pixel-ratio: 2),
-  (webkit-min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section__main-studio {
@@ -66,14 +65,11 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/bctablet2x.jpg);
+      url(../images/bcdesctop@2x.jpg);
   }
 }
-
-
-
 @media (min-device-pixel-ratio: 2),
-  (webkit-min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section__main-studio {
@@ -82,12 +78,11 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/bcdesctop2x.jpg);
+      url(../images/bctablet@2x.jpg);
   }
 }
-
 @media (min-device-pixel-ratio: 2),
-  (webkit-min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section__main-studio {
@@ -96,7 +91,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/bcmobile2x.jpg);
+      url(../images/bcmobile@2x.jpg);
   }
 }
 
