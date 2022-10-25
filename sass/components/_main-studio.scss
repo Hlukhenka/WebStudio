@@ -23,7 +23,6 @@
   background-size: cover;
 }
 
-
 .section__main-studio {
   @media screen and (min-width: $tablet) {
     max-width: 1199px;
@@ -38,7 +37,6 @@
       url(../images/bctablet.jpg);
   }
 }
-
 
 .section__main-studio {
   @media screen and (min-width: $desctop) {
@@ -55,32 +53,8 @@
   }
 }
 
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .section__main-studio {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/bcdesctop@2x.jpg);
-  }
-}
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .section__main-studio {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/bctablet@2x.jpg);
-  }
-}
+
+@media screen and (max-width: 479px) {
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -94,6 +68,40 @@
       url(../images/bcmobile@2x.jpg);
   }
 }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 1199px) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section__main-studio {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bctablet@2x.jpg);
+  }
+}
+}
+
+@media screen and (min-width: $desctop) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section__main-studio {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/bcdesctop@2x.jpg);
+  }
+}
+}
+
 
 .main-studio__title {
   font-weight: 900;
